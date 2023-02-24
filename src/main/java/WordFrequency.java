@@ -31,5 +31,8 @@ public class WordFrequency {
         }
         return resultList;
     }
+    public static void main(String arg[]){
+
+    }
 
 }

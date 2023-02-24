@@ -5,4 +5,9 @@ src/test/WordFrequencyTest.java has the test class which invokes the tests with 
 
 To run
 1. Import the project in intellij.
-2. Open Module Setting -> Add Junit.jar.
+   1. Right click project ->Open Module Setting ->Project -> 
+       choose, SourceFolder = src
+               TestFolder = src/main
+2. Right click project ->Open Module Setting -> Library -> Add Junit.jar with maven junit:junit:4.13.2.
+3. Right click project -> Build Module Frequency
+4. Run WordFrequency Test which will run all the test cases under 

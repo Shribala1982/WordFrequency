@@ -1,7 +1,10 @@
 package main.java;
 
 import org.junit.Test;
-import java.util.*;
+
+import main.java.WordFrequency;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class WordFrequencyTest {
